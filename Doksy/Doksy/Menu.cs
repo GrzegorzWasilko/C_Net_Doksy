@@ -9,16 +9,16 @@ namespace Doksy
     class Menu
     {
         string[] options;
-        public Menu (string[] optionsMenu)
+
+        public Menu(string[] optionsMenu)
         {
             options = optionsMenu;
         }
 
-
         private int Longhest()
         {
             int length = 0;
-            for (int i =0;i<options.Length;i++)
+            for (int i = 0; i < options.Length; i++)
             {
                 if (options[i].Length > length)
                 {
@@ -27,19 +27,21 @@ namespace Doksy
             }
             return length;
         }
+
         public int Open()
         {
+            Console.Clear();
             int length = Longhest();
             int nr_option = 0;
             ConsoleKeyInfo key;
             do
             {
-                Console.SetCursorPosition(0, 0);  //ustawiam kursor w prawym rogu ab menu rysowało sie w tym samym miejscu
+                Console.SetCursorPosition(0,0);  //ustawiam kursor w lewym rogu ab menu rysowało sie w tym samym miejscu
                 for (int i = 0; i < options.Length; i++)
                 {
                     if (i == nr_option)
                     {
-                        Console.BackgroundColor = ConsoleColor.Blue;
+                        Console.BackgroundColor = ConsoleColor.DarkCyan;
                     }
                     else
                     {
@@ -60,11 +62,12 @@ namespace Doksy
                 else if (key.Key == ConsoleKey.Escape)
                 {
                     nr_option = -1; // -1 option that does not exist.
-                } 
+                }
             } while (key.Key != ConsoleKey.Escape && key.Key != ConsoleKey.Enter);
 
             Console.ResetColor();
             return nr_option;
         }
     }
+
 }

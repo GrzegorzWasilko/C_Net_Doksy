@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GatunekDenisovensis.cs" />
+    <Compile Include="GatunekNeanderthalensis.cs" />
+    <Compile Include="HomoSapiens.cs" />
+    <Compile Include="RodzajCzlowiek.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RodzinaHominidzi.cs" />
+    <Compile Include="GatunekSapiens.cs" />
+    <Compile Include="Ssaki.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

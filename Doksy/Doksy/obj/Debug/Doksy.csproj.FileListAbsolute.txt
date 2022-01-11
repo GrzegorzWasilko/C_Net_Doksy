@@ -1,0 +1,7 @@
+C:\Users\Wasil\Desktop\WWSI\Semestr 3\Języki i Paragdymaty Programowaia\Projekt\C_Net_Doksy\Doksy\Doksy\bin\Debug\Doksy.exe.config
+C:\Users\Wasil\Desktop\WWSI\Semestr 3\Języki i Paragdymaty Programowaia\Projekt\C_Net_Doksy\Doksy\Doksy\bin\Debug\Doksy.exe
+C:\Users\Wasil\Desktop\WWSI\Semestr 3\Języki i Paragdymaty Programowaia\Projekt\C_Net_Doksy\Doksy\Doksy\bin\Debug\Doksy.pdb
+C:\Users\Wasil\Desktop\WWSI\Semestr 3\Języki i Paragdymaty Programowaia\Projekt\C_Net_Doksy\Doksy\Doksy\obj\Debug\Doksy.csprojAssemblyReference.cache
+C:\Users\Wasil\Desktop\WWSI\Semestr 3\Języki i Paragdymaty Programowaia\Projekt\C_Net_Doksy\Doksy\Doksy\obj\Debug\Doksy.csproj.CoreCompileInputs.cache
+C:\Users\Wasil\Desktop\WWSI\Semestr 3\Języki i Paragdymaty Programowaia\Projekt\C_Net_Doksy\Doksy\Doksy\obj\Debug\Doksy.exe
+C:\Users\Wasil\Desktop\WWSI\Semestr 3\Języki i Paragdymaty Programowaia\Projekt\C_Net_Doksy\Doksy\Doksy\obj\Debug\Doksy.pdb
